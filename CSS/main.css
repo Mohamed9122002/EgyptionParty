@@ -1,0 +1,120 @@
+:root {
+    --main-color: #272b30;
+    --seconde-color: #32383e;
+    --color-text: #fff;
+    --btn-main-color: #272729;
+}
+
+body {
+    font-family: "Comfortaa", cursive;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: var(--main-color);
+    color: var(--color-text);
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    max-height: 30vh;
+    object-fit: cover;
+}
+
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 0.5) inset;
+}
+
+#home {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url("../img/events-heavenly-header.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 90vh;
+}
+
+#home h2 {
+    font-size: 4rem;
+}
+
+.openNavbar {
+    cursor: pointer;
+    font-size: 2rem;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+}
+
+li {
+    cursor: pointer;
+}
+
+#leftMenu {
+    width: 0;
+    overflow-x: hidden;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+}
+
+#leftMenu a {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    color: #818181;
+    display: block;
+    transition: all 0.5s;
+    color: white;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+#leftMenu a:hover {
+    color: red;
+}
+
+.inner h3 {
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+.lead {
+    display: none;
+}
+
+.counter {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url("../img/invitation-2508607__340.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+
+}
+
+.item {
+    border: 2px solid white;
+}
